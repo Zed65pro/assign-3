@@ -1,0 +1,82 @@
+.navbar .navbar-brand{
+    font-weight: bold;
+    font-size: 2.5em;
+    color:#cdc1c1;
+}
+.navbar .navbar-brand:hover{
+    color:green;
+}
+
+#header,#navbar-id{
+    background-color: #152885;;
+    /* height: 90px; */
+    /* margin-top:-15px; */
+    /* margin-bottom: -15px; */
+}
+
+.navbar-nav .nav-item .nav-link{
+    font-size: 1.8em;
+    color: #cdc1c1;
+    /* border: 1px solid black */
+}
+.navbar-nav .nav-item .nav-link:hover{
+
+    color: green;
+
+}
+ .navbar-toggler{
+    background-color: #b0c4de;
+}
+
+body{
+    background-color: #b0c4de;
+}
+
+.main-h1{
+    text-align: center;
+    margin-top:40px
+
+}
+
+.row #sect-1,#sect-2,#sect-3{
+  margin-top: 40px;
+}
+
+.row .text{
+    text-align: center;
+    font-size: 30px;
+    color: #c6d1e0;
+}
+
+.row .text-long{
+    text-align: left;
+    font-size: 17px;
+    color: #c6d1e0;
+}
+
+@media (min-width: 768px){
+    .navbar-nav{
+        display:none;
+    }
+    .navbar-toggler{
+        display:none;
+    }
+    #sect-1,#sect-2,#sect-3{
+        width:32%;
+        margin-left:1%;
+    }
+}
+
+@media (max-width: 767px){
+    #sect-1,#sect-2,#sect-3{
+        width:90%;
+        margin: 20px auto!important;
+    }
+}
+
+#sect-1,#sect-2,#sect-3{
+    border: black solid 1px;
+    background-color: #152885;
+ 
+}
+
